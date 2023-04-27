@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import List, Dict
 
-
+"""Initial commit"""
 @lru_cache
 def read(path: str) -> List[Dict]:
     """Reads a file from a given path and returns its contents
